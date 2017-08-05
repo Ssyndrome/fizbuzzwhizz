@@ -9,7 +9,7 @@ describe('fizbuzzwhizz', () => {
         expect(fizbuzzwhizz(a, b, c, number)).toEqual("fizz");
     });
 
-    it('should return buzz when number is mutiple of b', () => {
+    it('should return buzz when number is mutiple of b in which not including a', () => {
         let a = 3;
         let b = 5;
         let c = 7;
@@ -17,7 +17,7 @@ describe('fizbuzzwhizz', () => {
         expect(fizbuzzwhizz(a, b, c, number)).toEqual("buzz");
     });
 
-    it('should return whizz when number is mutiple of c', () => {
+    it('should return whizz when number is mutiple of c in which not including a', () => {
         let a = 3;
         let b = 5;
         let c = 7;
@@ -25,7 +25,7 @@ describe('fizbuzzwhizz', () => {
         expect(fizbuzzwhizz(a, b, c, number)).toEqual("whizz");
     });
 
-    it('should return number&fizzbuzz when number is mutiple of a&b', () => {
+    it('should return number&fizzbuzz when number is mutiple of a&b in which not including a', () => {
         let a = 3;
         let b = 5;
         let c = 7;
@@ -34,7 +34,7 @@ describe('fizbuzzwhizz', () => {
         expect(fizbuzzwhizz(a, b, c, number)).toEqual(result);
     });
 
-it('should return number&fizzwhizz when number is mutiple of a&c', () => {
+it('should return number&fizzwhizz when number is mutiple of a&c in which not including a', () => {
     let a = 3;
 let b = 5;
 let c = 7;
@@ -43,7 +43,7 @@ let result = `${a},${c},fizzwhizz`;
 expect(fizbuzzwhizz(a, b, c, number)).toEqual(result);
 });
 
-it('should return number&buzzwhizz when number is mutiple of b&c', () => {
+it('should return number&buzzwhizz when number is mutiple of b&c in which not including a', () => {
     let a = 3;
 let b = 5;
 let c = 7;
@@ -52,7 +52,7 @@ let result = `${b},${c},buzzwhizz`;
 expect(fizbuzzwhizz(a, b, c, number)).toEqual(result);
 });
 
-it('should return number&fizzbuzzwhizz when number is mutiple of a&b&c', () => {
+it('should return number&fizzbuzzwhizz when number is mutiple of a&b&c in which not including a', () => {
     let a = 3;
 let b = 5;
 let c = 7;
